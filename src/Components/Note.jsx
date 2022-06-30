@@ -1,6 +1,7 @@
 import React from "react";
 import './styles.css'
 
+
 const note = () => {
   return (
     <div className="note">
