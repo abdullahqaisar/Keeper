@@ -1,15 +1,11 @@
 import React from "react";
 import './styles.css'
 
-
-const note = () => {
+const note = (props) => {
   return (
     <div className="note">
-      <h1>Hi, This is a note</h1>
-      <p>
-        Bazaar sy dahi aur dhaniya ly aana. DHANIYAAA Laana tha bhai, Podina
-        nahi
-      </p>
+      <h1>{props.title}</h1>
+      <p>{props.content}</p>
     </div>
   );
 };
